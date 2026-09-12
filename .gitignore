@@ -1,0 +1,9 @@
+node_modules/
+.next/
+out/
+public/photos/
+public/world-map.svg
+data/generated-assets.json
+test-results/
+playwright-report/
+*.tsbuildinfo

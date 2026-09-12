@@ -1,0 +1,92 @@
+export const content = {
+  girlfriendName: '[HER NAME]',
+  myName: '[MY NAME]',
+  anniversaryDate: '', // Optional ISO date: YYYY-MM-DD
+  birthdayDate: '', // Optional ISO date: YYYY-MM-DD
+  title: 'Two years of us. Another year of you.',
+  music: { src: '/music/our-song.mp3', volume: 0.25, playLabel: 'play our song', pauseLabel: 'pause our song' },
+  navigation: { brand: 'a little story of us', chapters: ['The beginning', 'Our memories', 'Today', 'What’s next'], progress: ['then', 'now', 'next'] },
+  hero: {
+    eyebrow: 'A LOVE LETTER, IN LITTLE MOMENTS', dedication: 'For my favorite person.',
+    title: 'Happy 2nd\nAnniversary', subtitle: '& Happy Level Up, My Love.',
+    note: 'I made something for you.', scroll: 'scroll through our story',
+    footer: 'TWO YEARS OF US. ANOTHER YEAR OF YOU.', edition: 'VOLUME 02 — FOREVER TO GO',
+  },
+  intro: {
+    label: 'CHAPTER I · THE BEGINNING', prelude: 'Before we talk about today,\nI want you to remember something.',
+    title: 'Do you realize how much life we have already lived together?',
+    paragraphs: ['Some moments were big.\nSome were completely ordinary.', 'Some were planned.\nSome just happened.', 'But somehow, every little moment became part of us.'],
+    transition: 'So before we celebrate today…', closing: 'let’s look back for a while.',
+  },
+  gallery: {
+    label: 'CHAPTER II · THE LITTLE THINGS', title: 'An Untold Story\nFrom Our Journey',
+    subtitle: '37 little pieces of our two years together.',
+    paragraphs: ['Maybe these are only photographs.', 'But behind every photo,\nthere is a place, a conversation, a laugh,\na problem, a random story,\nand a version of us that existed only at that moment.'],
+    last: 'One more.', counter: 'MEMORY',
+  },
+  reflection: {
+    title: '37 photos.', subtitle: 'But probably millions of moments.',
+    paragraphs: ['And the funny thing is…\nthese aren’t even all of them.', 'There were countless conversations, random food trips, laughs that made no sense, bad days, good days, arguments, reconciliations, small adventures, and ordinary days that somehow became special.'],
+    closing: 'Because I experienced them with you.',
+  },
+  today: {
+    label: 'CHAPTER III · TODAY', title: 'Today, we officially\nmade it to two years.',
+    anniversary: 'Happy 2nd Anniversary to us.', bridge: 'But that’s not the only thing we’re celebrating.',
+    birthdayTitle: 'Today, you level up too.', birthday: 'Happy Birthday, Love.',
+    closing: 'Two years of us.\nAnother year of you.\nAnd hopefully, many more of both.',
+    yearFrom: 'YEAR 01', yearTo: 'YEAR 02', you: 'YOU', increment: '+1',
+  },
+  future: {
+    label: 'CHAPTER IV · WHAT’S NEXT', opening: 'But we’re not done yet.', title: 'We still have\nso much more to go.',
+    paragraphs: ['There are still thousands of photos we haven’t taken.', 'Thousands of conversations we haven’t had.', 'Places we haven’t seen.\nFood we haven’t tried.\nSunsets we haven’t watched.', 'Problems we haven’t solved.\nAnd versions of ourselves we haven’t met yet.'],
+    closing: 'Our story is still\nbeing written.',
+  },
+  travel: {
+    label: 'A LITTLE ATLAS OF SOMEDAY', title: 'Places Our Story\nHasn’t Reached Yet',
+    subtitle: 'Someday, let’s turn these names into memories.', selectLabel: 'Choose our next someday',
+    mapLabel: 'A world of places we dream of visiting together', noteLabel: 'A CHAPTER WAITING TO HAPPEN',
+    closing: 'One day, these won’t just be places on a map.',
+    final: 'They’ll become stories that start with:\n“Remember when we…?”',
+  },
+  life: {
+    opening: 'I don’t just want to collect places with you.', title: 'I want to collect\na life with you.',
+    paragraphs: ['A ridiculous amount of photographs.\nInside jokes nobody else understands.\nStories we’ve told a thousand times.', 'Places that somehow become “our places”.\nSongs that immediately remind us of something.\nLittle traditions. Big dreams.', 'And ordinary days we end up missing years later.'],
+    family: 'And maybe someday,\nwhen our children ask us what we were like when we were younger…',
+    familyTitle: 'we’ll have way too many\nstories to tell them.',
+    familyParagraphs: ['We’ll tell them about where we went.\nThe stupid things we did.\nThe things we were afraid of.\nThe dreams we chased.', 'The times things didn’t go according to plan.', 'And how somehow,\nthrough all those chapters,\nwe kept choosing each other.'],
+    closing: 'So let’s keep making\nstories worth telling.',
+  },
+  birthday: {
+    label: 'A SMALL WISH, JUST FOR YOU', title: 'And now,\nit’s your month.',
+    intro: 'Your favorite month.\nYour birthday month.\nAnother small beginning.',
+    wish: 'I hope this month\nis gentle with you.',
+    paragraphs: ['I hope it brings you good news.\nNew opportunities. Little surprises.\nMore laughter. More confidence. More courage.', 'More moments where you realize how far you’ve come.', 'I hope the things you’ve been working for slowly find their way to you.', 'I hope you keep becoming the person you’ve always wanted to be.', 'And when things get difficult,\nI hope you remember how many things you’ve already survived and achieved.'],
+  },
+  letter: {
+    label: 'THE LAST PAGE, NEVER THE END', title: 'Happy level up to you.\nAnd happy level up to us.',
+    paragraphs: ['Thank you for these two years.', 'Thank you for every random conversation, every adventure, every laugh, every difficult moment we managed to pass, and every ordinary day that somehow became a memory.', 'We still have dreams to chase.\nPlaces to visit. Things to build.\nVersions of ourselves to become.', 'And hopefully,\na very long story ahead of us.'],
+    dreams: 'So please, don’t give up on your dreams.\nDon’t give up on our dreams either.',
+    promises: 'Let’s keep growing.\nLet’s keep exploring.\nLet’s keep taking way too many photos.\nLet’s keep turning random days into memories.',
+    closing: 'And let’s see just how far\nthis story can go.',
+    birthday: 'Happy Birthday, Love.', anniversary: 'Happy 2nd Anniversary to us.',
+    yearThree: 'Here’s to year three. ♡', signature: 'with love,', back: 'back to the beginning',
+  },
+  secret: { button: 'one last thing…', intro: 'If you somehow made it all the way down here…', title: 'yes.\nI’d still choose you.', closing: 'Again.\nAnd again.\nAnd again.', close: 'Close this little note' },
+};
+
+export const destinations = [
+  { id: 'london', name: 'London', country: 'United Kingdom', lat: 51.51, lon: -0.13, note: 'Maybe one day we’ll walk here together.' },
+  { id: 'paris', name: 'Paris', country: 'France', lat: 48.86, lon: 2.35, note: 'A cliché? Maybe. But I still want to see it with you.' },
+  { id: 'alps', name: 'Swiss Alps', country: 'Switzerland', lat: 46.58, lon: 8, note: 'Imagine waking up to this view together.' },
+  { id: 'rome', name: 'Rome', country: 'Italy', lat: 41.9, lon: 12.5, note: 'Getting a little lost. Finding another story.' },
+  { id: 'amsterdam', name: 'Amsterdam', country: 'Netherlands', lat: 52.37, lon: 4.9, note: 'Slow mornings, quiet canals, and nowhere to hurry.' },
+  { id: 'tokyo', name: 'Tokyo', country: 'Japan', lat: 35.68, lon: 139.69, note: 'Another chapter waiting to happen.' },
+  { id: 'kyoto', name: 'Kyoto', country: 'Japan', lat: 35.01, lon: 135.77, note: 'A quiet little street. Your hand in mine.' },
+  { id: 'seoul', name: 'Seoul', country: 'South Korea', lat: 37.57, lon: 126.98, note: 'One more late-night walk we won’t want to end.' },
+  { id: 'santorini', name: 'Santorini', country: 'Greece', lat: 36.39, lon: 25.46, note: 'Let’s stay until the sky changes its mind.' },
+  { id: 'iceland', name: 'Iceland', country: 'Iceland', lat: 64.15, lon: -21.94, note: 'Somewhere the world feels wonderfully big, and it’s still us.' },
+  { id: 'norway', name: 'Norway', country: 'Norway', lat: 69.65, lon: 18.96, note: 'Cold hands. Warm coffee. A sky worth waiting for.' },
+  { id: 'new-york', name: 'New York', country: 'United States', lat: 40.71, lon: -74.01, note: 'A million things happening. My favorite person beside me.' },
+  { id: 'new-zealand', name: 'New Zealand', country: 'New Zealand', lat: -45.03, lon: 168.66, note: 'The long way round, with you.' },
+  { id: 'bali', name: 'Bali', country: 'Indonesia', lat: -8.41, lon: 115.19, note: 'Another sunset. Another reason to stay a little longer.' },
+];
