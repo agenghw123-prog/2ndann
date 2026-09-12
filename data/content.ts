@@ -1,6 +1,6 @@
 export const content = {
-  girlfriendName: '[HER NAME]',
-  myName: '[MY NAME]',
+  girlfriendName: 'Manda',
+  myName: 'Ageng',
   anniversaryDate: '', // Optional ISO date: YYYY-MM-DD
   birthdayDate: '', // Optional ISO date: YYYY-MM-DD
   title: 'Two years of us. Another year of you.',
